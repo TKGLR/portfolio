@@ -6,6 +6,7 @@ import Contact from "./pages/Contact";
 import Services from "./pages/Services";
 import Portfolio from "./pages/Portfolio";
 import Mentions from "./pages/Mentions";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/mentions" element={<Mentions />} />
       </Routes>
+
+      <Footer />
+      
     </BrowserRouter>
   );
 }
