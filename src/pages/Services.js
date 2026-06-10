@@ -1,5 +1,11 @@
+import Banner from "../components/Banner";   
+
 function Services() {
   return (
+  <>
+
+    <Banner />
+
     <div className="container my-5">
 
       <div className="text-center mb-5">
@@ -59,6 +65,8 @@ function Services() {
       </div>
 
     </div>
+
+  </>
   );
 }
 
